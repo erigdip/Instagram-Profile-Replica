@@ -72,7 +72,7 @@
 
     .footer-social-media {
         display: flex;
-        width: 250px;
+        width: 200px;
         align-content: flex-end;
         flex-wrap: wrap;
     }
