@@ -1,0 +1,64 @@
+.component-icons-section {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-reels-tagged {
+    max-width: 304px;
+    width: 100%;
+    padding: 15px 0 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.grid-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: var(--white);
+}
+
+.grid-icon > img {    
+    width: 30px;
+    height: 30px;
+}
+
+.tv-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: var(--white);
+}
+
+.tv-icon > img {    
+    width: 30px;
+    height: 30px;
+}
+
+.tagged-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: var(--white);
+}
+
+.tagged-icon > img {
+    width: 30px;
+    height: 30px;
+}
+
+@media (min-width: 425px) {
+    .grid-reels-tagged {
+        max-width: 409px;
+    }
+}

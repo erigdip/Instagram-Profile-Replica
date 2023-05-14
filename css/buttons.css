@@ -1,0 +1,59 @@
+.buttons {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+
+button.follow-button {
+    background-color: #3898ef;
+    border: none;
+    border-radius: 8px;
+    padding: 7px 1.7rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;    
+    color: var(--white);
+    font-size: 14px;
+    font-family: var(--paragraph-font);
+}
+
+button.message-button {
+    border: none;
+    border-radius: 8px;
+    padding: 7px 1.3rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;    
+    font-size: 14px;
+    font-family: var(--paragraph-font);
+}
+
+button.contact-button {    
+    border: none;
+    border-radius: 8px;
+    padding: 7px 1.3rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: var(--paragraph-font);
+}
+
+@media (min-width: 425px) {
+
+    button.follow-button {
+        padding: 7px 2.8rem;
+    }
+
+    button.message-button {
+        padding: 7px 2.4rem;
+    }
+
+    button.contact-button {
+        padding: 7px 2.4rem;
+    }
+}

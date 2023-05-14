@@ -1,0 +1,23 @@
+@import './header.css';
+@import './main.css';
+@import './buttons.css';
+@import './highlights.css';
+@import './component\ icons.css';
+@import './grid.css';
+@import './footer.css';
+
+:root {
+    --black-header: #0f0f0f;
+    --black-background: #202020;
+    --white: #F8F6F0;
+    --paragraph-font: 'Instagram Sans', sans-serif;
+    --title-font: 'Instagram Sans Headline', sans-serif;
+}
+
+body {
+    background-color: var(--black-background);
+}
+
+main {
+    margin-bottom: 20px;
+}

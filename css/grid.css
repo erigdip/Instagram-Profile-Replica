@@ -1,0 +1,43 @@
+.grid-section {    
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container {
+    margin: 0;
+    padding: 0;
+    max-width: 304px;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 100px 100px 100px;
+    gap: 3px;
+}
+
+.grid-post {
+    width: 100px;
+    height: 100px;
+}
+
+.grid-post > img {
+    width: 100px;
+    height: 100px;
+}
+
+@media (min-width: 425px) {
+    .grid-container {
+        max-width: 409px;
+        grid-template-columns: 135px 135px 135px;
+    }
+
+    .grid-post {
+        width: 135px;
+        height: 135px;
+    }
+    
+    .grid-post > img {
+        width: 135px;
+        height: 135px;
+    }
+}
