@@ -83,6 +83,24 @@ section.description {
     color: lightskyblue;
 }
 
+@media (min-width: 375px) {
+    .section-profile {
+        max-width: 375px;
+        width: 100%;
+    }
+
+    .picture-posts-container {
+        width: auto;
+        display: flex;    
+        justify-content: center;
+        align-items: center;
+    }
+
+    .posts-follows-container {
+        width: 265px;
+    }
+}
+
 @media (min-width: 425px) {
 
     .section-profile {

@@ -25,6 +25,23 @@
     height: 100px;
 }
 
+@media (min-width: 375px) {
+    .grid-container {
+        max-width: 359px;
+        grid-template-columns: 118px 118px 118px;
+    }
+
+    .grid-post {
+        width: 118px;
+        height: 118px;
+    }
+    
+    .grid-post > img {
+        width: 118px;
+        height: 118px;
+    }
+}
+
 @media (min-width: 425px) {
     .grid-container {
         max-width: 409px;

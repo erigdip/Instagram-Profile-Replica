@@ -42,6 +42,17 @@ section.highlights {
     font-family: var(--paragraph-font);
 }
 
+@media (min-width: 375px) {
+
+    .highlights-icons-container {
+        max-width: 359px;
+        width: 100%;
+        grid-template-columns: 20% 20% 20% 20%;
+        gap: 15px;
+    }
+
+}
+
 @media (min-width: 425px) {
 
     .highlights-icons-container {

@@ -43,6 +43,21 @@ button.contact-button {
     font-family: var(--paragraph-font);
 }
 
+@media (min-width: 375px) {
+
+    button.follow-button {
+        padding: 7px 2.3rem;
+    }
+
+    button.message-button {
+        padding: 7px 2rem;
+    }
+
+    button.contact-button {
+        padding: 7px 2rem;
+    }
+}
+
 @media (min-width: 425px) {
 
     button.follow-button {

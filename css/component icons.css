@@ -57,6 +57,12 @@
     height: 30px;
 }
 
+@media (min-width: 375px) {
+    .grid-reels-tagged {
+        max-width: 359px;
+    }
+}
+
 @media (min-width: 425px) {
     .grid-reels-tagged {
         max-width: 409px;
